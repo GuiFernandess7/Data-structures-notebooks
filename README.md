@@ -10,11 +10,11 @@ This is a notebook that gathers some of the most important data structures and h
 
 ## Time Complexity
 
-* Big O Complexity Chart
+* ### Big O Complexity Chart
 
 ![Chart](./imgs/BIG-O-chart.png)
 
-* Data Structures Time Complexities
+* ### Data Structures Time Complexities
 
 ![Chart](./imgs/operations.png)
 
