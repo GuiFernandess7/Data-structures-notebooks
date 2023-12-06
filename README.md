@@ -13,3 +13,9 @@ This is a notebook that gathers some of the most important data structures and h
 * Big O Complexity Chart
 
 ![Chart](./imgs/BIG-O-chart.png)
+
+* Data Structures Time Complexities
+
+![Chart](./imgs/operations.png)
+
+Source: https://www.bigocheatsheet.com/
