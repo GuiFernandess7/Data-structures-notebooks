@@ -7,6 +7,8 @@ This is a notebook that gathers some of the most important data structures and h
 * **Linked Lists**
 * **Queues**
 * **Stacks**
+* **Trees**
+* **Graphs**
 
 ## Time Complexity
 
