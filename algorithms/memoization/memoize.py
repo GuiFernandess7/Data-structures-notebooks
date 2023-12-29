@@ -1,9 +1,10 @@
 from functools import wraps
+from check import check_input
 
 def memoize(func):
     cache = {}
 
-    @wraps
+    @wraps(func)
     def wrapper(*args, **kwargs):
         key = str(args) + str(kwargs)
 
@@ -13,3 +14,12 @@ def memoize(func):
         return cache[key]
 
     return wrapper
+
+@memoize
+def fibonacci(n):
+    check_input(n)
+    if n <= 1:
+        return n
+
+    result = fibonacci(n - 1) + fibonacci(n - 2)
+    return result
